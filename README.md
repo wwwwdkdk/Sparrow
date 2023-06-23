@@ -5,6 +5,9 @@
 
 后端使用Springboot+mysql+netty+redis编写
 ## 后端地址：https://github.com/wwwwdkdk/ChatService
+开发环境Xcode 14.3
+初次运行请修改/network/HttpAddressModel.h文件
+
 
 
 
