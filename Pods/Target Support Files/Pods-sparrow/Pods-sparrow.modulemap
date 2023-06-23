@@ -1,0 +1,6 @@
+framework module Pods_sparrow {
+  umbrella header "Pods-sparrow-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  sparrow
+//
+//  Created by hwy on 2021/11/9.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "LayerConfig.pch"
+#import "sparrow-Swift.h"
+#import "BaseViewController.h"
+
+//判断是否是全面屏
+#define IS_IPHONE_X                 (APP_SCREEN_WIDTH >= 360.0f && APP_SCREEN_HEIGHT >= 780.0f)
+// 屏幕宽度
+#define APP_SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
+// 屏幕高度
+#define APP_SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
+// 状态栏高度
+#define APP_STATUS_BAR_HEIGHT       (UIApplication.sharedApplication.statusBarFrame.size.height)
+// 标签栏高度
+#define APP_TAG_BAR_HEIGHT          (CGFloat)(IS_IPHONE_X ? (49.0 + 34.0):(49.0))
+// 导航栏高度
+#define APP_NAVIGATION_BAR_HEIGHT   (APP_STATUS_BAR_HEIGHT + 44)
+
+// rgb设置颜色
+#define RGB(r, g, b)                [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b/ 255.0 alpha:1]
+// rgba设置颜色
+#define RGBA(r, g, b, a)            [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b/ 255.0 alpha:a]
+
+#endif

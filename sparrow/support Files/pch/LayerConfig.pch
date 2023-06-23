@@ -1,0 +1,46 @@
+//
+//  layerConfig.pch
+//  sparrow
+//  关于布局的一些配置
+//  Created by hwy on 2021/11/29.
+//
+
+#ifndef layerConfig_pch
+#define layerConfig_pch
+
+/**项目颜色配置*/
+//默认颜色:浅蓝
+#define PRIMARY_COLOR                        RGB(0,147,233)
+//默认背景颜色:浅灰
+#define PRIMARY_BG_COLOR                     RGB(237,237,237)
+//不可点击状态颜色:浅灰
+#define Ban_CLICK_COLOR                      RGB(222,222,222)
+//成功颜色:绿色
+#define CORRECT_COLOR                        RGB(0,160,100)
+
+/**项目组件布局配置*/
+//默认边距长度
+#define APP_PRIMARY_MARGIN                   APP_SCREEN_WIDTH * 0.03
+//有边距的视图宽度
+#define APP_VIEW_WITH_MARGIN_WIDTH           APP_SCREEN_WIDTH * 0.94
+//有标签栏的表格高度
+#define APP_TABLE_WITH_TAB_BAR_HEIGHT        (APP_SCREEN_HEIGHT - APP_TAG_BAR_HEIGHT)
+//没有标签栏的表格高度
+#define APP_TABLE_WITHOUT_TAB_BAR_HEIGHT     APP_SCREEN_HEIGHT
+//默认文本框高度
+#define APP_TEXT_FIELD_HEIGHT                APP_SCREEN_WIDTH * 0.1
+//默认方形按钮的尺寸
+#define APP_SQUARE_BUTTON_SIZE               APP_SCREEN_WIDTH * 0.07
+//默认图标尺寸
+#define APP_ICON_SIZE                        APP_SCREEN_WIDTH * 0.06
+
+/**项目字体配置*/
+//默认字号
+#define APP_FONT_SIZE                        (APP_SCREEN_WIDTH >= 375 ? 15 : 13)
+//小号字号
+#define APP_SMALL_FONT_SIZE                  (APP_SCREEN_WIDTH >= 375 ? 13 : 11)
+//大号字号
+#define APP_BIG_FONT_SIZE                    (APP_SCREEN_WIDTH >= 375 ? 22 : 20)
+
+#endif
+
