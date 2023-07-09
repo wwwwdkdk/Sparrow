@@ -11,7 +11,7 @@
 ## 如何运行
 1.初次运行请修改sparrow/network/HttpAddressModel.h文件中的以下三行
 <img width="948" alt="截屏2023-06-23 22 21 35" src="https://github.com/wwwwdkdk/Sparrow/assets/63393116/dd8c35fe-725a-4e78-ba78-44cbf2901b57">
-
+ 
 2.请部署Java服务器，后端地址：https://github.com/wwwwdkdk/ChatService，如何部署请见后端readme
 
 ## 运行截图
